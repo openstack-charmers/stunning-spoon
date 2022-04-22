@@ -1,0 +1,8 @@
+- job:
+    name: check-outdated-packages-yoga
+    vars:
+      uca-codename: yoga
+- project:
+    hourly:
+      jobs:
+        - check-outdated-packages-yoga

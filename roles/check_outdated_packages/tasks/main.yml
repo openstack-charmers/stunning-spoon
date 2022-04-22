@@ -1,0 +1,4 @@
+- name: Identify outdated packages
+  identify_outdated_packages:
+    config: "{{ uca-codename }}.yaml"
+

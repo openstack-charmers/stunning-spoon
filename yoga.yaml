@@ -1,0 +1,6 @@
+---
+source: jammy
+destination_series: focal
+destination: ppa:chris.macnaughton/yoga-staging-test
+packages:
+  - pytest
