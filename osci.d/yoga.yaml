@@ -1,0 +1,10 @@
+---
+- name: yoga
+  abstract: true
+  vars:
+    uca: yoga
+
+- name: backport-yoga-pytest
+  parent: yoga
+  vars:
+    package_name: pytest
