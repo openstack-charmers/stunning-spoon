@@ -1,0 +1,3 @@
+To test:
+
+$ ansible-playbook -vvv --module-path ../library/ identify_outdated_packages.yml
