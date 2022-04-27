@@ -1,0 +1,13 @@
+- hosts: localhost
+
+  tasks:
+  - name: Identify Outdated Packages
+    identify_outdated_packages:
+      openstack_release: yoga
+      source_series: jammy
+      target_series: focal
+      packages:
+        - aodh
+        - keystone
+        - neutron
+        - nova
