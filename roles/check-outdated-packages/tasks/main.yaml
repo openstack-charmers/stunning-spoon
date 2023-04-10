@@ -1,0 +1,5 @@
+---
+- name: Check outdated packages
+  check_outdated_packages:
+    packages_file: "{{ uca-codename }}.yaml"
+

@@ -1,8 +1,9 @@
-- job:
-    name: check-outdated-packages-yoga
-    vars:
-      uca-codename: yoga
 - project:
     hourly:
       jobs:
         - check-outdated-packages-yoga
+- job:
+    name: check-outdated-packages-yoga
+    vars:
+      uca-codename: yoga
+    run: playbooks/check-outdated-packages.yaml
